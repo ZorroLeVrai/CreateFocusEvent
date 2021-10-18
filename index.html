@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create focus event</title>
+    <link rel="stylesheet" href="mystyle.css" />
+  </head>
+  <body>
+    <div id="div0" class="focusable" tabindex="0">Div0</div>
+    <div id="div1" class="focusable" tabindex="1">Div1</div>
+    <div id="div2" class="focusable" tabindex="2">Div2</div>
+    <div id="div3" class="focusable" tabindex="3">Div3</div>
+    <div id="div4" class="focusable" tabindex="4">Div4</div>
+
+    <div>
+      <button id="button-focus" tabindex="5" onclick="changeFocus()">
+        Set focus
+      </button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
